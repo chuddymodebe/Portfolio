@@ -8,3 +8,100 @@ body {
     font-family: "Nunito", serif;
     font-style: normal;
 }
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+
+.content {
+    margin-top: 90px;
+    line-height: 1;
+}
+
+.content-info {
+    background: #8e2de2; 
+    background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0);
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+    color: #fff;
+    width: 410px;
+    padding: 1px 5px 0px 5px;
+    border-radius: 5px;
+    
+}
+
+.content .inner-text {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.content .hero-caption-text {
+    color: #8e2de2;
+   
+
+}
+
+.content .hero-caption-text h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.content .hero-btn {
+    margin-top: 30px;
+}
+
+.content .hero-btn .btn-primary {
+    background-color: #4a00e0;
+    border-color: #4a00e0;
+    padding: 17px 50px;
+    border-radius: 9px;
+}
+
+.content .hero-btn .btn-light {
+    background-color: #fff;
+    padding: 17px 50px;
+    border-color: #000;
+    border-radius: 9px;
+    margin-left: 25px;
+}
+
+.hero-img {
+    max-width: 480px;
+    background: #8e2de2; 
+    background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0);
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+    margin-top: 90px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+
+.hero-img img{
+    width: 480px;
+    margin-left: -30px;
+}
+
+@media screen and (max-width: 765px) {
+
+    .content-info  {
+        width: 340px;
+        line-height: 1.5;
+        padding: 5px 5px 0px 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    .content .hero-caption-text h1 {
+        font-size: 48px;
+        line-height: 1;
+    }
+
+
+    .hero-img img{
+        width: 350px;
+        margin-left: -30px;
+    }
+}
