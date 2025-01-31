@@ -24,9 +24,10 @@ body {
     background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0);
     background: linear-gradient(to bottom, #8e2de2, #4a00e0);
     color: #fff;
-    width: 410px;
+    width: 360px;
     padding: 1px 5px 0px 5px;
     border-radius: 5px;
+    font-size: 14px;
     
 }
 
@@ -36,7 +37,9 @@ body {
 }
 
 .content .hero-caption-text {
-    color: #8e2de2;
+    background: -webkit-linear-gradient(255deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    
 
 }
@@ -136,6 +139,181 @@ body {
     margin-left: 15px;
     color: #8e2de2;
 }
+
+
+#resume {
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+
+#resume .resume-title {
+    text-align: center;
+    background: -webkit-linear-gradient(255deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+
+#resume .experience {
+
+    max-width: 860px;
+    padding-right: 15px;  
+    padding-left: 15px;  
+    margin-right: auto;   
+    margin-left: auto;    
+    margin-top: 30px;
+}
+
+#resume .experience .experience-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume .experience .experience-title .experience-text h2 {
+    font-size: 38px;
+    color: #4a00e0;
+    font-weight: 700;
+}
+
+#resume .experience .experience-title .experience-download button {
+    padding: 15px 30px 15px 30px;
+   background-color: #4a00e0;
+
+}
+
+#resume .experience .experience-title .experience-download i {
+    margin-right: 8px;
+}
+
+#resume .experience .experience-card {
+    margin-top: 30px;
+   
+}
+
+#resume .experience .experience-card .card {
+    border: none !important;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #adb5bd;
+}
+
+#resume .experience .experience-card .years_of_experience {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+#resume .experience .experience-card .years_of_experience .years_of_experience-title h3 {
+    font-size: 20px;
+    color: #1e30f3;
+    font-weight: 700;
+}
+
+#resume .experience .experience-card .years_of_experience .years_of_experience-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#resume .experience .experience-card .years_of_experience .years_of_experience-content p {
+    font-size: 16px;
+}
+
+#resume .experience .experience-card .years_of_experience-description {
+    padding: 30px;
+}
+
+
+
+
+
+#resume .education {
+    max-width: 860px;
+    padding-right: 15px;  
+    padding-left: 15px;  
+    margin-right: auto;   
+    margin-left: auto;    
+    margin-top: 50px;
+}
+
+
+#resume .education .education-title .education-text h2 {
+    font-size: 38px;
+    color: #e21e80;
+    font-weight: 700;
+}
+
+
+#resume .education .education-card {
+    margin-top: 30px;
+   
+}
+
+#resume .education .education-card .card {
+    border: none !important;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #adb5bd;
+}
+
+#resume .education .education-card .years_of_education {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+#resume .education .education-card .years_of_education .years_of_education-title h3 {
+    font-size: 20px;
+    color: #e21e80;
+    font-weight: 700;
+}
+
+#resume .education .education-card .years_of_education .years_of_education-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#resume .education .education-card .years_of_education .years_of_education-content p {
+    font-size: 16px;
+}
+
+#resume .education .education-card .years_of_education-description {
+    padding: 30px;
+}
+
+
+#skills {
+    background-color: #f8f9fa;
+    padding: 30px; 
+}
+
+
+
+#skills .skills-body {
+    max-width: 820px;
+    padding-right: 15px;  
+    padding-left: 15px;  
+    margin-right: auto;   
+    margin-left: auto;    
+    margin-top: 30px;
+}
+
+#skills .skills-body .card {
+    border: none !important;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #adb5bd;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     padding: 10px;
